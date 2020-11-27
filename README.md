@@ -36,30 +36,30 @@
 
 ```
 # 一些开关参数
-load_para         # True表示加载已有卷积核，False表示使用随机生成的卷积核
-is_learning   # True表示学习，False表示只是测试图片
+load_para               # True表示加载已有卷积核，False表示使用随机生成的卷积核
+is_learning             # True表示学习，False表示只是测试图片
 ```  
 
 ```
 # 模型的参数
-num_plot            # 想测试的图片数量
-sample_index        # batch_size张图中随机选num_plot张
-predicted         # 预测函数将会放到这里
-batch_size      # input图的数量
-input_size      # 图大小（像素）
-in_ch_size      # 图的depth (grayscale or RGB)
-filter_width        # filter的size
+num_plot                # 想测试的图片数量
+sample_index            # batch_size张图中随机选num_plot张
+predicted               # 预测函数将会放到这里
+batch_size              # input图的数量
+input_size              # 图大小（像素）
+in_ch_size              # 图的depth (grayscale or RGB)
+filter_width            # filter的size
 filter_height = filter_width
-num_filters   # filter数
-class_num         # class数
-num_train         # 训练数
-lr          # learning rate
+num_filters             # filter数
+class_num               # class数
+num_train               # 训练数
+lr                      # learning rate
 cnv_lr = lr
 fcl_lr = lr
-decay            # 1/t decay
-break_threshold  # 当loss小于一定值时break的阈值
-M               # Mini-SGD的参数
-cnvRMS_r_W = 0    # RMSProp的参数
+decay                   # 1/t decay
+break_threshold         # 当loss小于一定值时break的阈值
+M                       # Mini-SGD的参数
+cnvRMS_r_W = 0          # RMSProp的参数
 fclRMS_r_W = 0
 alpha
 ```  
