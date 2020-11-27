@@ -173,9 +173,9 @@ for i in range(num_plot):
 
 ### nn.py的运行结果  
 #### batch_size设置为8时  
-![image](https://github.com/Lin-CX/deep-learning/blob/main/hw3-convolutionalNeuralNetword/nnResult1.png)  
+![image](./nnResult1.png)  
 #### batch_size设置为32时(由于处理数据变多所以运行时间也变多了)  
-![image](https://github.com/Lin-CX/deep-learning/blob/main/hw3-convolutionalNeuralNetword/nnResult2.png)
+![image](./nnResult2.png)
   
   
 ## mnist.py  
