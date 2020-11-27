@@ -9,17 +9,17 @@
 
 **运行时的样子**  
 <div  align="center">   
-    <img src="https://github.com/Lin-CX/deep-learning/blob/main/hw3-convolutionalNeuralNetword/运行时的样子.png" align=center />
+    <img src="./运行时的样子.png" align=center />
 </div> 
 
 **Input**: (6+1)万张28x28x1的手写数字图片
 <div  align="center">   
-    <img src="https://github.com/Lin-CX/deep-learning/blob/main/hw3-convolutionalNeuralNetword/input_ex.png" alt="input image" align=center />
+    <img src="./input_ex.png" alt="input image" align=center />
 </div>  
 
 **output**: 随机选择的num_plot张带着label的输出
 <div  align="center">   
-    <img src="https://github.com/Lin-CX/deep-learning/blob/main/hw3-convolutionalNeuralNetword/output_ex.png" alt="output image" align=center />
+    <img src="./output_ex.png" alt="output image" align=center />
 </div>
 
 # 项目说明  
